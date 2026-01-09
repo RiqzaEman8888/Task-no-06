@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+    <h1>Rule The Exchange</h1>
+
+    <div class="cards">
+        <div class="card">
+            <img src="icon1.png" alt="">
+            <h3>Knowledge Base</h3>
+            <p>
+                Sharpen up your trading know-how with our comprehensive
+                Knowledge Base containing helpful instructions and tutorials.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="icon2.png" alt="">
+            <h3>24/7 Support</h3>
+            <p>
+                We're here for you when you need us with 24/7 support
+                via both live chat and help desk.
+            </p>
+        </div>
+    </div>
+
+    <h2>You'll wonder how you ever<br>lived without us</h2>
+
+    <button>Get Started for Free</button>
+</section>
+
+</body>
+</html>
+
+CSS CODE:
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url(https://img.freepik.com/premium-vector/blue-gradient-abstract-background-with-glowing-waves_615931-202.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+min-height: 100vh;
+    padding: 80px 20px;   /* space inside section */
+    color: white;        /* text color */
+    text-align: center;
+}
+
+
+
+.hero h1 {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    color: #333;
+    width: 320px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.hero h2 {
+    margin-top: 50px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    background: #2ecc71;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
